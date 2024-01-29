@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px;
+}
+
+.collapse_btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #017BFF;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  transition-duration: 0.3s;
+}
+
+.collapse_btn:hover {
+  border: 2px solid #93C7FE;
+  background-color: #0069D9;
+}
+
+.collapse_cont {
+  height: 0;
+  overflow: hidden;
+  transition: ease-out;
+  transition-property: height;
+  transition-duration: 0.4s;
+}
+
+.collapse_text {
+  margin-top: 30px;
+  padding: 10px;
+  display: block;
+  border: 2px solid #D2E0EE;
+  width: 500px;
+}
